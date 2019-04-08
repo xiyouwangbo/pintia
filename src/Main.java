@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-
+        // add by wangbo 2019 4 8
         Scanner input = new Scanner(System.in);
         int m = input.nextInt();
         int n = input.nextInt();
