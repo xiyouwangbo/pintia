@@ -6,6 +6,9 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+
+
+        //test
         // add by wangbo 2019 4 8
         Scanner input = new Scanner(System.in);
         int m = input.nextInt();
@@ -19,6 +22,8 @@ public class Main {
        for(int i=0 ; i <unionList.size();i++) {
         	System.out.print(unionList.get(i) +" ");
         }
+
+        System.out.print("------------------------");
     }
 
     public static ArrayList<Integer> union(ArrayList<Integer> list1, ArrayList<Integer> list2) {
@@ -26,6 +31,7 @@ public class Main {
         ArrayList<Integer> temp = new ArrayList<>();
         temp.addAll(list1);
         temp.addAll(list2);
+        System.out.print("------------------------");
         return temp;
     }
 }
